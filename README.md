@@ -34,12 +34,17 @@ The game's source code is not part of this repository and is not published.
 
 ## Gizlilik · Privacy
 
-Oyun çerez kullanmaz ve hesap istemez. İlerlemeniz ve ayarlarınız yalnız kendi tarayıcınızda saklanır.
-Ziyaret sayıları çerezsiz ve kişisel veri toplamayan [GoatCounter](https://www.goatcounter.com/) ile
-ölçülebilir. Yazı tipleri Google Fonts üzerinden yüklenir.
+Oyun çerez kullanmaz ve hesap gerektirmez. Giriş yapmazsanız ilerlemeniz ve ayarlarınız yalnız kendi
+tarayıcınızda saklanır. Oyundaki isteğe bağlı girişi kullanırsanız e-posta adresiniz, çağrı adınız ve oyun
+kayıtlarınız yalnız giriş ve cihazlar arası eşitleme için [Supabase](https://supabase.com/)'de (AB, Frankfurt)
+saklanır. Hesabınızı ve tüm verinizi oyundaki Hesap penceresinden kalıcı olarak silebilirsiniz. Ziyaret sayıları
+çerezsiz ve kişisel veri toplamayan
+[GoatCounter](https://www.goatcounter.com/) ile ölçülebilir. Yazı tipleri Google Fonts üzerinden yüklenir.
 
-The game uses no cookies and needs no account. Your progress and settings stay in your own browser.
-Visits may be counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and
+The game uses no cookies and needs no account. If you don't sign in, your progress and settings stay in your own
+browser. If you use the optional sign-in, your email address, callsign and game saves are stored with
+[Supabase](https://supabase.com/) (EU, Frankfurt) only for sign-in and syncing between devices. You can permanently
+delete your account and all your data from the Account window in the game. Visits may be counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and
 collects no personal data. Fonts are loaded from Google Fonts.
 
 ## Telif · Copyright
