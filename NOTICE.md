@@ -3,10 +3,10 @@
 **Kumanda Merkezi Yönetimi · Control Center Management**
 © 2026 Tulutas (@metromuhendisi). Tüm hakları saklıdır · All rights reserved.
 
-Oyun aşağıdaki üçüncü taraf kaynaklardan yararlanır. Aynı atıflar oyun içinde **Geliştiriciler ve
-Kaynaklar** ekranında da gösterilir.
-The game draws on the third-party sources below. The same attributions appear in the game's
-**Developers and Sources** screen.
+Oyun aşağıdaki üçüncü taraf kaynaklardan yararlanır. 1, 3 ve 4. maddeler oyun içinde **Geliştiriciler ve
+Kaynaklar** ekranında da gösterilir; 2. maddenin lisans bildirimi bu dosyadadır.
+The game draws on the third-party sources below. Items 1, 3 and 4 also appear in the game's
+**Developers and Sources** screen; the licence notice for item 2 is kept in this file.
 
 ## 1. raylisistem.github.io · Genç Raylı Sistemciler
 
@@ -22,10 +22,12 @@ The game draws on the third-party sources below. The same attributions appear in
 ## 2. TrainIcon 1.1.0
 
 - Ramazan Aktaş & Onur Sero (NETAS), © 2021 · Lisans · License: MIT
-- Kullanım: tren simgesinin parça yapısı (gövde, aktif/pasif kabin, kapılar, arıza kapısı) referans
-  alınarak SVG/Canvas olarak elle yeniden çizilmiştir; paketten dosya kopyalanmamıştır.
-- Use: the train icon's part structure (body, active/passive cab, doors, fault door) was redrawn by
-  hand in SVG/Canvas; no files were copied from the package.
+- Kullanım: haritadaki trenler paketteki denetimin (`trainview.xaml`) çizimiyle yapılır. Geometri
+  (kabin burunları, pencereler, çift kanatlı kapı) paketten alınıp Canvas'a uyarlanmıştır.
+  **Değiştirilmiştir:** harita ölçeği için yatayda sıkıştırılmış, renkler oyun durumuna bağlanmıştır.
+- Use: the trains on the map use the drawing of the package's control (`trainview.xaml`). Its geometry
+  (cab noses, windows, double sliding door) was taken from the package and adapted to Canvas.
+  **Modified:** compressed horizontally for the map scale; colours are bound to game state.
 
 ```
 Copyright (c) 2021 Ramazan Aktaş & Onur Sero (NETAS)
